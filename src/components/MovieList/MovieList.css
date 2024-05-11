@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.movie-card {
+  background-color: #141414;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card .card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.movie-card .card-body {
+  padding: 20px;
+}
+
+.movie-card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.movie-card .card-text {
+  font-size: 16px;
+  color: #ffffff;
+}
