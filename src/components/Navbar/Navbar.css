@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #141414;
+    color: #ffffff;
+    padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.link {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: #ff0000;
+}
+
+.navbar-scrolled {
+    top: -70px;
+  }
+  

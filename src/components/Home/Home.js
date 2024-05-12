@@ -6,7 +6,8 @@ function Home() {
   const [trendingArr, setTrendingArr] = useState([]);
 
   const sendReq = async () => {
-    const serverURL = `https://api.themoviedb.org/3/trending/all/week?api_key=8f8ff63d375ef9af382e04b6c6837080`;
+    const apiUrl = process.env.REACT_APP_API_KEY;
+    const serverURL = `https://api.themoviedb.org/3/trending/all/week?api_key=${apiUrl}`;
     const res = await fetch(serverURL);
     const jsonRes = await res.json();
     setTrendingArr(jsonRes.results);
